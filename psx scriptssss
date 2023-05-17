@@ -1,0 +1,21 @@
+loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();      - fruit farm
+
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()   -- farm
+
+
+
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+print("Executed AntiAfk!")                                                  --- anti afk
+
+
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()                     --- infinitie yield
+
